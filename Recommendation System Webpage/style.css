@@ -1,0 +1,38 @@
+
+
+h1 {
+    text-align: left;
+    padding-left: 100px;
+}
+
+
+.body {
+		background-color: lightslategray;
+        background-image: url('grocery-shop-safely.jpg')
+
+}
+
+.main {
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: left;
+}
+
+.table1 {
+    background-color:#cefcec;
+    border: none;
+    border-bottom: 1px solid #C8C8C8;
+    border-collapse: collapse;
+    text-align:left;
+    padding: 10px;
+    margin-bottom: 40px;
+    font-size: 0.9em;
+}
+
+  th {background-color: rgb(250, 176, 40); padding: 10px}
+  td {padding: 5px}
+  
+  tr:nth-child(odd)		{ background-color:#eee; }
+  tr:nth-child(even)	{ background-color:#fff; }
+  
+  tr:hover            { background-color: #ffff99;}

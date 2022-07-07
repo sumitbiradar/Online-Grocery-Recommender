@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Natural Language Grocery Recommender</title>
+
+    <link rel='stylesheet' type='text/css' href="style.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.5/build/pure-min.css" integrity="sha384-LTIDeidl25h2dPxrB2Ekgc9c7sEC3CWGM6HeFmuDNUjX76Ert4Z4IY714dhZHPLd" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: lightslategray;
+            background-image: url('grocery-shop-safely.jpg')
+        }
+        </style>
+</head>
+
+<h1>NLP Grocery Recommender</h1>
+
+<body>
+
+<div class='main'>
+    <p>Please enter search words and I will return recommended products.</p>
+    <form class="pure-form" method="POST" action="/nlp">
+    <br>
+    <input type="text" name="searchwords"><br>
+    <br/>
+    <button type="submit" class="pure-button pure-button-primary" value="Submit">Submit</button>
+    </form>
+</div>
+
+<br>
+
+<div class='main'>
+    <form class="pure-form" method="POST" action="/svd">
+        <button type="submit" class="pure-button pure-button-active" value="Submit">Try the SVD</button>
+    </form>    
+    <br/>
+    <form class="pure-form" method="POST" action="/">
+        <button type="submit" class="pure-button pure-button-active" value="Submit">Home</button>
+    </form>   
+    <br>
+</div>
+
+
+
+</body>
